@@ -1,0 +1,556 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "id": 4,
+      "day": 4
+    },
+    {
+      "id": 5,
+      "day": 5
+    },
+    {
+      "id": 6,
+      "day": 6
+    },
+    {
+      "id": 7,
+      "day": 7
+    },
+    {
+      "id": 8,
+      "day": 8
+    },
+    {
+      "id": 9,
+      "day": 9
+    },
+    {
+      "id": 10,
+      "day": 10
+    },
+    {
+      "id": 11,
+      "day": 11
+    },
+    {
+      "id": 12,
+      "day": 12
+    },
+    {
+      "id": 13,
+      "day": 13
+    },
+    {
+      "id": 14,
+      "day": 14
+    },
+    {
+      "id": 15,
+      "day": 15
+    },
+    {
+      "id": 16,
+      "day": 16
+    },
+    {
+      "id": 17,
+      "day": 17
+    },
+    {
+      "id": 18,
+      "day": 18
+    },
+    {
+      "id": 19,
+      "day": 19
+    },
+    {
+      "id": 20,
+      "day": 20
+    },
+    {
+      "id": 21,
+      "day": 21
+    },
+    {
+      "id": 22,
+      "day": 22
+    },
+    {
+      "id": 23,
+      "day": 23
+    },
+    {
+      "id": 24,
+      "day": 24
+    },
+    {
+      "id": 25,
+      "day": 25
+    },
+    {
+      "id": 26,
+      "day": 26
+    },
+    {
+      "id": 27,
+      "day": 27
+    },
+    {
+      "id": 28,
+      "day": 28
+    },
+    {
+      "id": 29,
+      "day": 29
+    },
+    {
+      "id": 30,
+      "day": 30
+    },
+    {
+      "id": 31,
+      "day": 31
+    },
+    {
+      "id": 32,
+      "day": 32
+    },
+    {
+      "id": 33,
+      "day": 33
+    },
+    {
+      "id": 34,
+      "day": 34
+    },
+    {
+      "id": 35,
+      "day": 35
+    },
+    {
+      "id": 36,
+      "day": 36
+    },
+    {
+      "id": 37,
+      "day": 37
+    },
+    {
+      "id": 38,
+      "day": 38
+    },
+    {
+      "id": 39,
+      "day": 39
+    },
+    {
+      "id": 40,
+      "day": 40
+    },
+    {
+      "id": 41,
+      "day": 41
+    },
+    {
+      "id": 42,
+      "day": 42
+    },
+    {
+      "id": 43,
+      "day": 43
+    },
+    {
+      "id": 44,
+      "day": 44
+    },
+    {
+      "id": 45,
+      "day": 45
+    },
+    {
+      "id": 46,
+      "day": 46
+    },
+    {
+      "id": 47,
+      "day": 47
+    },
+    {
+      "id": 48,
+      "day": 48
+    },
+    {
+      "id": 49,
+      "day": 49
+    },
+    {
+      "id": 50,
+      "day": 50
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "day": 1,
+      "chn": "我",
+      "kor": "나",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "chn": "你",
+      "kor": "너",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "chn": "他",
+      "kor": "그",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "chn": "她",
+      "kor": "그녀",
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "chn": "我们",
+      "kor": "우리",
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "day": 2,
+      "chn": "这",
+      "kor": "이것",
+      "isDone": false
+    },
+    {
+      "id": 7,
+      "day": 2,
+      "chn": "那",
+      "kor": "저것",
+      "isDone": false
+    },
+    {
+      "id": 8,
+      "day": 2,
+      "chn": "他们",
+      "kor": "그들",
+      "isDone": false
+    },
+    {
+      "id": 9,
+      "day": 2,
+      "chn": "我的",
+      "kor": "나의",
+      "isDone": false
+    },
+    {
+      "id": 10,
+      "day": 2,
+      "chn": "你的",
+      "kor": "너의",
+      "isDone": false
+    },
+    {
+      "id": 11,
+      "day": 3,
+      "chn": "他的",
+      "kor": "그의",
+      "isDone": false
+    },
+    {
+      "id": 12,
+      "day": 3,
+      "chn": "她的",
+      "kor": "그녀의",
+      "isDone": false
+    },
+    {
+      "id": 13,
+      "day": 3,
+      "chn": "我们的",
+      "kor": "우리의",
+      "isDone": false
+    },
+    {
+      "id": 14,
+      "day": 3,
+      "chn": "他们的",
+      "kor": "그들의",
+      "isDone": false
+    },
+    {
+      "id": 15,
+      "day": 3,
+      "chn": "谁",
+      "kor": "누구",
+      "isDone": false
+    },
+    {
+      "id": 16,
+      "day": 4,
+      "chn": "什么",
+      "kor": "무엇",
+      "isDone": false
+    },
+    {
+      "id": 17,
+      "day": 4,
+      "chn": "怎么",
+      "kor": "어떻게",
+      "isDone": false
+    },
+    {
+      "id": 18,
+      "day": 4,
+      "chn": "怎么样",
+      "kor": "어떠하다",
+      "isDone": false
+    },
+    {
+      "id": 19,
+      "day": 4,
+      "chn": "多少",
+      "kor": "얼마나",
+      "isDone": false
+    },
+    {
+      "id": 20,
+      "day": 4,
+      "chn": "几",
+      "kor": "몇",
+      "isDone": false
+    },
+    {
+      "id": 21,
+      "day": 5,
+      "chn": "爸爸",
+      "kor": "아빠",
+      "isDone": false
+    },
+    {
+      "id": 22,
+      "day": 5,
+      "chn": "妈妈",
+      "kor": "엄마",
+      "isDone": false
+    },
+    {
+      "id": 23,
+      "day": 5,
+      "chn": "儿子",
+      "kor": "아들",
+      "isDone": false
+    },
+    {
+      "id": 24,
+      "day": 5,
+      "chn": "女儿",
+      "kor": "딸",
+      "isDone": false
+    },
+    {
+      "id": 25,
+      "day": 5,
+      "chn": "先生",
+      "kor": "선생님",
+      "isDone": false
+    },
+    {
+      "id": 26,
+      "day": 6,
+      "chn": "老师",
+      "kor": "선생님",
+      "isDone": false
+    },
+    {
+      "id": 27,
+      "day": 6,
+      "chn": "学生",
+      "kor": "학생",
+      "isDone": false
+    },
+    {
+      "id": 28,
+      "day": 6,
+      "chn": "同学",
+      "kor": "동급생",
+      "isDone": false
+    },
+    {
+      "id": 29,
+      "day": 6,
+      "chn": "朋友",
+      "kor": "친구",
+      "isDone": false
+    },
+    {
+      "id": 30,
+      "day": 6,
+      "chn": "医生",
+      "kor": "의사",
+      "isDone": false
+    },
+    {
+      "id": 31,
+      "day": 7,
+      "chn": "小姐",
+      "kor": "아가씨",
+      "isDone": false
+    },
+    {
+      "id": 32,
+      "day": 7,
+      "chn": "家",
+      "kor": "집",
+      "isDone": false
+    },
+    {
+      "id": 33,
+      "day": 7,
+      "chn": "学校",
+      "kor": "학교",
+      "isDone": false
+    },
+    {
+      "id": 34,
+      "day": 7,
+      "chn": "饭馆",
+      "kor": "식당",
+      "isDone": false
+    },
+    {
+      "id": 35,
+      "day": 7,
+      "chn": "饭店",
+      "kor": "호텔",
+      "isDone": false
+    },
+    {
+      "id": 36,
+      "day": 8,
+      "chn": "商店",
+      "kor": "상점",
+      "isDone": false
+    },
+    {
+      "id": 37,
+      "day": 8,
+      "chn": "医院",
+      "kor": "병원",
+      "isDone": false
+    },
+    {
+      "id": 38,
+      "day": 8,
+      "chn": "汉语",
+      "kor": "중국어",
+      "isDone": false
+    },
+    {
+      "id": 39,
+      "day": 8,
+      "chn": "中国",
+      "kor": "중국",
+      "isDone": false
+    },
+    {
+      "id": 40,
+      "day": 8,
+      "chn": "北京",
+      "kor": "베이징",
+      "isDone": false
+    },
+    {
+      "id": 41,
+      "day": 9,
+      "chn": "上",
+      "kor": "위",
+      "isDone": false
+    },
+    {
+      "id": 42,
+      "day": 9,
+      "chn": "下",
+      "kor": "아래",
+      "isDone": false
+    },
+    {
+      "id": 43,
+      "day": 9,
+      "chn": "前面",
+      "kor": "앞",
+      "isDone": false
+    },
+    {
+      "id": 44,
+      "day": 9,
+      "chn": "后面",
+      "kor": "뒤",
+      "isDone": false
+    },
+    {
+      "id": 45,
+      "day": 9,
+      "chn": "里",
+      "kor": "안",
+      "isDone": false
+    },
+    {
+      "id": 46,
+      "day": 10,
+      "chn": "人",
+      "kor": "사람",
+      "isDone": false
+    },
+    {
+      "id": 47,
+      "day": 10,
+      "chn": "名字",
+      "kor": "이름",
+      "isDone": false
+    },
+    {
+      "id": 48,
+      "day": 10,
+      "chn": "书",
+      "kor": "책",
+      "isDone": false
+    },
+    {
+      "id": 49,
+      "day": 10,
+      "chn": "字",
+      "kor": "글자",
+      "isDone": false
+    },
+    {
+      "id": 50,
+      "day": 10,
+      "chn": "桌子",
+      "kor": "탁자",
+      "isDone": false
+    }
+  ]
+}
