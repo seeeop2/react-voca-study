@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./component/Header";
 
+// App 컴포넌트: 애플리케이션의 루트 컴포넌트
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        {/* 상단 헤더 영역 */}
+        <Header/>
+      </div>
   );
 }
 
