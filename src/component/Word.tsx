@@ -1,8 +1,10 @@
 // Word.tsx: 단어 정보를 행 단위로 보여주는 컴포넌트
+// - 단어의 중국어, 한글 뜻, 학습 완료 상태를 표시
+// - 뜻 보기/숨기기, 학습 완료 토글, 삭제 버튼 제공
 import React from "react";
 
 // 단어 데이터 타입 정의
-interface IWord {
+export interface IWord {
   id: number;      // 단어 고유 ID
   day: number;    // 해당 일차 번호
   chn: string;    // 중국어 단어
@@ -12,9 +14,9 @@ interface IWord {
 
 // Word 컴포넌트: 단어 1개를 테이블 행으로 렌더링
 export default function Word({word}: { word: IWord }) {
-  // 뜻(한글) 표시 여부 상태
+  // 뜻(한글) 표시 여부 상태 (false: 숨김, true: 표시)
   const [isShow, setIsShow] = React.useState(false);
-  // 학습 완료 상태
+  // 학습 완료 상태 (체크박스와 연동)
   const [isDone, setIsDone] = React.useState(word.isDone);
 
   // 뜻(한글) 표시/숨김 토글 함수
