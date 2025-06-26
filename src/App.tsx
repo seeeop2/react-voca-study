@@ -9,6 +9,8 @@ import DayList from "./component/DayList";
 import Header from "./component/Header";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import EmptyPage from "./component/EmptyPage";
+import CreateWord from "./component/CreateWord";
+import CreateDay from "./component/CreateDay";
 
 // App 컴포넌트 정의
 function App() {
@@ -23,6 +25,10 @@ function App() {
             <Route path="/" element={<DayList/>}/>
             {/* /day/:day: 선택된 일차의 단어 목록 페이지 */}
             <Route path="/day/:day" element={<Day/>}/>
+            {/* /create_word: 단어 추가 페이지 */}
+            <Route path="/create_word" element={<CreateWord/>}/>
+            {/* /create_day: 날짜 추가 페이지 */}
+            <Route path="/create_day" element={<CreateDay/>}/>
             {/* 그 외 모든 경로: 404 Not Found 페이지 */}
             <Route path="*" element={<EmptyPage/>}/>
           </Routes>

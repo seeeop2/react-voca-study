@@ -12,10 +12,10 @@ export default function Header() {
         </h1>
         {/* 메뉴 영역: 주요 기능 버튼(단어 추가, 날짜 추가) */}
         <div className="menu">
-          {/* 단어 추가 버튼: 새로운 단어를 추가하는 기능 (추후 구현 예정) */}
-          <a href="#x" className="link">단어 추가</a>
-          {/* 날짜 추가 버튼: 새로운 날짜(일차)를 추가하는 기능 (추후 구현 예정) */}
-          <a href="#x" className="link">날짜 추가</a>
+          {/* 단어 추가 버튼: 새로운 단어를 추가하는 페이지로 이동 */}
+          <Link to="/create_word" className="link">단어 추가</Link>
+          {/* 날짜 추가 버튼: 새로운 날짜(일차)를 추가하는 페이지로 이동 */}
+          <Link to="/create_day" className="link">날짜 추가</Link>
         </div>
       </header>
   );

@@ -5,7 +5,7 @@ import React from "react";
 import useFetch from "../hooks/useFetch";
 
 // 요일 데이터 타입 정의
-interface IDay {
+export interface IDay {
   id: number; // 고유 식별자
   day: number; // 날짜(일차)
 }
